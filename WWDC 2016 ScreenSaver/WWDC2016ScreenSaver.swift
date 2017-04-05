@@ -142,7 +142,7 @@ class WWDC2016ScreenSaverView: ScreenSaverView {
     func buildMaskImage() {
         let bundle = Bundle(for: type(of: self))
 //        let imageURL = bundle.urlForResource("logo_outline", withExtension: "png")!
-        let imageURL = bundle.urlForImageResource("j.jpg")
+        let imageURL = bundle.urlForImageResource("f.jpg")
         
         self.maskImage = NSImage(contentsOf: imageURL!)!
         
